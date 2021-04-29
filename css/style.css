@@ -188,3 +188,78 @@ ul{
     font-size: 17px;
     margin-bottom: 10px;
 }
+
+.popular{
+    margin: 0 0 2vw 0;
+}
+.popular-headeing{
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+.popular-title, .newsletter-title h4{
+    font-size: 25px;
+    font-weight: 400;
+    color: #040E27;
+    margin: 10px;
+}
+.popular-discription, .newsletter p{
+    font-size: 15px;
+    text-align: center;
+    color: #7a838b;
+    margin: 10px 0;
+}
+
+.popular-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+article img {
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.popular-container article {
+    position: relative;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: transform .3s !important;
+}
+
+.popular-container article:hover {
+    transform: translateY(-10px);
+}
+
+.popular-image-info {
+    position: absolute;
+    left: 20px;
+    bottom: 40px;
+    z-index: 200;
+}
+
+.popular-image-info p {
+    font-size: 5vw;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.popular-image-info a {
+    background-color: #1EC6B6;
+    font-size: 3vw;
+    border-radius: 30px;
+    padding: 7px 12px;
+    color: #fff;
+    margin-left: 10px;
+    transition: color 0.3s , background-color 0.3s;
+}
+
+.popular-container article:hover .popular-image-info p {
+    color: #FF4A52;
+}
+
+.popular-container article:hover .popular-image-info a {
+    color: #fff;
+    background-color: #FF4A52;
+}

@@ -35,6 +35,38 @@
         padding: 1.5vw 2vw;
         border-radius: .4vw;
     }
+
+    .popular-container {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    article img {
+        margin-bottom: 1vw;
+        height: 26vw;
+        border-radius: .5vw;
+    }
+
+    .popular-image-info p {
+        font-size: 3vw;
+    }
+    
+    .popular-image-info a {
+        font-size: 2vw;
+    }
+
+    .popular-container article {
+        margin: 0 .5vw;
+    }
+
+    .popular-image-info {
+        left: 2vw;
+        bottom: 3vw;
+    }
+
+    .popular-image-info a {
+        padding: .6vw 1vw;
+    }
 }
 
 @media (min-width: 992px){
@@ -49,6 +81,16 @@
 
     .search-btn {
         margin-top: 0;
+    }
+
+    .popular-headeing{
+        margin: 5vw 0;
+    }
+    .popular-title{
+        font-size: 2.5vw;
+    }
+    .popular-discription{
+        font-size: 1.5vw;
     }
 }
 
@@ -83,5 +125,19 @@
     .search-bar h3{
         font-size: 1.5vw;
         margin: 0 .5vw 0 0;
+    }
+
+    .popular-container {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    article img {
+        height: 17vw;
+    }
+    .popular-image-info p {
+        font-size: 2vw;
+    }
+    .popular-image-info a {
+        font-size: 1vw;
     }
 }
