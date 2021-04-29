@@ -1,0 +1,146 @@
+::selection{
+    color: #fff;
+    background-color: #FF4A52;
+}
+@font-face {
+    font-family: 'nothing you could do';
+    src: url('../fonts/NothingYouCouldDo-Regular.ttf') format('TrueType');
+}
+
+.clear-fix{
+    clear: both;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+input[type='text']{
+    letter-spacing: .15vw;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: color .2s;
+    letter-spacing: 1px;
+}
+a:hover {
+    color: #FF4A52;
+}
+
+.d-flex{
+    display: flex !important;
+}
+.row{
+    display: flex;
+    width: 100%;
+}
+.w-100{
+    width: 100% !important;
+}.w-50{
+    width: 50% !important;
+}
+
+
+header{
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.search, .burger{
+    cursor: pointer;
+    font-size: 17px !important;
+}
+.search{
+    margin-right: 20px;
+    transition: all .2s !important;
+}
+label{
+    margin-right: 10px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.header-menu{
+    z-index: 10000;
+    position: absolute;
+    top: -360px;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: all .5s cubic-bezier(.94,.21,.08,.87) !important;
+}
+.header-menu li{
+    display: block;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 5px;
+    list-style-type: none;
+}
+.header-menu li a{
+    font-size: 15px;
+}
+
+.checkbox:checked ~ .header-menu{
+    top: 65px;
+    opacity: 1;
+    background-color: rgba(141, 141, 141, .9);
+}
+
+.logo{
+    transform: scale(.8);
+}
+
+.banner{
+    background: url('../images/banner.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 80vw;
+}
+.banner-text {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vw;
+}
+.banner-text p{
+    font-size: 4vw;
+    margin-bottom: 10vw;
+    border-radius: 5px;
+    padding: 2px 5px;
+    color: #FF4A52;
+}
+
+.banner-text a{
+    background-color: #1ec6b6;
+    border-radius: 5px;
+    font-size: 3.5vw;
+    padding: 3vw 4.5vw;
+    transition: all .3s !important;
+}
+.banner-text a:hover{
+    color: #fff !important;
+    background-color: #FF4A52;
+}
+.banner-text h3{
+    margin-bottom: 3vw;
+    font-size: 13vw;
+    font-family: 'nothing you could do';
+    font-weight: bolder;
+    color: rgb(63, 63, 63);
+}

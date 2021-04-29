@@ -1,0 +1,56 @@
+@media (min-width: 576px){
+    .banner-text a{
+        font-size: 2.5vw;
+        padding: 2vw 2.5vw;
+    }
+}
+
+@media (min-width: 768px){
+    .header-menu{
+        position: initial;
+        opacity: 1;
+        background-color: #fff !important;
+    }
+    .header-menu li{
+        display: inline-block;
+        margin: 0 2vw;
+        padding: 0;
+        width: auto;
+        border-bottom: 0;
+    }
+
+    .header-menu li a{
+        font-size: 2vw !important;
+    }
+
+    .burger{
+        display: none !important;
+    }
+    .search{
+        font-size: 1.5vw !important;
+    }
+
+    .banner-text a{
+        font-size: 2vw;
+        padding: 1.5vw 2vw;
+        border-radius: .4vw;
+    }
+}
+
+@media (min-width: 992px){
+
+}
+
+@media (min-width: 1200px){
+    .header-menu li a{
+        font-size: 1.5vw !important;
+    }
+
+    .logo a img{
+        width: 10vw;
+    }
+
+    header{
+        margin: .85vw 0;
+    }
+}
