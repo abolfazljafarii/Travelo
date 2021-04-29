@@ -38,7 +38,18 @@
 }
 
 @media (min-width: 992px){
+    .search-bar {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .search-form {
+        flex-direction: row;
+        justify-content: center;
+    }
 
+    .search-btn {
+        margin-top: 0;
+    }
 }
 
 @media (min-width: 1200px){
@@ -52,5 +63,25 @@
 
     header{
         margin: .85vw 0;
+    }
+
+    .search-bar {
+        padding: 2vw 2.3vw;
+    }
+    .search-form input {
+        border: .1vw solid #363E52;
+        border-radius: .3vw;
+        padding: 1.2vw 2.5vw;
+        font-size: 1vw;
+    }
+    .search-btn{
+        border-radius: .3vw;
+        padding: 1.2vw 2.5vw;
+        font-size: 1vw;
+        margin: 0 0 0 .2vw;
+    }
+    .search-bar h3{
+        font-size: 1.5vw;
+        margin: 0 .5vw 0 0;
     }
 }
