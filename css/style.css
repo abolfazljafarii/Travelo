@@ -11,6 +11,12 @@
     clear: both;
 }
 
+.banner, .banner h3, .banner p,
+.search-bar, .search-form, .search-form input, .search-bar h3,
+.popular, .popular-headeing h3, .popular-headeing p, article img{
+    overflow: hidden;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -20,7 +26,6 @@ input[type='text']{
 }
 
 * {
-    overflow: hidden !important;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
