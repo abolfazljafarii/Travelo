@@ -339,3 +339,46 @@ article img {
 .newsletter-btn:hover{
     background-color: #ff3640;
 }
+
+footer{
+    flex-direction: column;
+    align-items: center;
+    background-color: #040E27;
+    padding: 30px 0;
+}
+.left-footer .logo{
+    display: flex;
+    justify-content: center;
+}
+.footer-info{
+    margin: 10px 0 20px 0;
+}
+.footer-info li, .links li{
+    font-size: 4vw;
+    text-align: center;
+    list-style-type: none;
+    color: #aab1b7;
+    line-height: 8vw;
+}
+.right-footer h3{
+    color: #fff;
+    font-size: 4.5vw;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.links li a {
+    color: #aab1b7;
+}
+.copy-right{
+    justify-content: center;
+    background-color: #040E27;
+    padding: 1vw;
+}
+.copy{
+    letter-spacing: .4vw;
+    margin: 20px 0 5px 0;
+    color: #fff;
+}
+.copy strong{
+    color: #2154a0;
+}
