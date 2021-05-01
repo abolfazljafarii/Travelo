@@ -112,6 +112,12 @@ ul{
     background-position: center center;
     height: 80vw;
 }
+.banner2{
+    background: url('../images/banner2.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 80vw;
+}
 .banner-text {
     flex-direction: column;
     justify-content: space-around;
@@ -262,4 +268,74 @@ article img {
 .popular-container article:hover .popular-image-info a {
     color: #fff;
     background-color: #FF4A52;
+}
+
+.newsletter{
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    background: url('../images/3030857.jpg') no-repeat center;
+    background-size: cover;
+    z-index: 1;
+}
+.newsletter-container{
+    flex-direction: column;
+    align-items: center;
+    margin: 5vw 0;
+}
+.newsletter-container::after{
+    content: '';
+    position: absolute;
+    background: #040E27;
+    opacity: .8;
+    z-index: -10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.newsletter-title{
+    flex-direction: column;
+    align-items: center;
+    margin: .5vw 0;
+}
+.newsletter-form{
+    flex-direction: column;
+}
+.newsletter-title h4{
+    color: #fff;
+    font-size: 18px;
+}
+.newsletter-title p{
+    color: #9bc4c4;
+    font-size: 15px;
+}
+
+.newsletter-form input {
+    width: 80vw;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 1vw;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 10px 0;
+}
+.newsletter-btn {
+    background-color: #FF4A52;
+    color: #fff;
+    padding: 16px 10px;
+    border: 0;
+    font-size: 16px;
+    border-radius: 1vw;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color .2s;
+}
+.newsletter-btn:hover{
+    background-color: #ff3640;
 }

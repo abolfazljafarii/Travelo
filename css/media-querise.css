@@ -3,6 +3,16 @@
         font-size: 2.5vw;
         padding: 2vw 2.5vw;
     }
+
+    .newsletter-form input {
+        width: 60vw;
+    }
+    .newsletter-title h4{
+        font-size: 4vw;
+    }
+    .newsletter-title p{
+        font-size: 2.5vw;
+    }
 }
 
 @media (min-width: 768px){
@@ -67,6 +77,13 @@
     .popular-image-info a {
         padding: .6vw 1vw;
     }
+
+    .newsletter-title h4{
+        font-size: 3vw;
+    }
+    .newsletter-title p{
+        font-size: 2vw;
+    }
 }
 
 @media (min-width: 992px){
@@ -91,6 +108,13 @@
     }
     .popular-discription{
         font-size: 1.5vw;
+    }
+
+    .banner, .banner2{
+        height: 60vw;
+    }
+    .banner-text {
+        height: 55vw;
     }
 }
 
@@ -139,5 +163,31 @@
     }
     .popular-image-info a {
         font-size: 1vw;
+    }
+
+    .newsletter-container, .newsletter-form{
+        flex-direction: row;
+    }
+    .newsletter-title h4{
+        font-size: 2.5vw;
+    }
+    .newsletter-title p{
+        font-size: 1.2vw;
+    }
+    .newsletter-title{
+        margin: 0;
+    }
+    .newsletter-form input{
+        width: 40vw;
+        height: 4vw;
+        margin: 0 .5vw;
+        border-radius: .5vw;
+        padding-left: 1.5vw;
+        font-size: 1.5vw;
+    }
+    .newsletter-btn{
+        border-radius: .5vw;
+        height: 4vw;
+        font-size: 1.5vw;
     }
 }
