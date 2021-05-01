@@ -2,6 +2,21 @@
     color: #fff;
     background-color: #FF4A52;
 }
+:root{
+    scrollbar-color: #FF4A52 #363E52;
+    scrollbar-width: thin !important;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: #363E52;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #FF4A52;
+    border-radius: 20px;
+}
+
 @font-face {
     font-family: 'nothing you could do';
     src: url('../fonts/NothingYouCouldDo-Regular.ttf') format('TrueType');
