@@ -11,7 +11,7 @@
     clear: both;
 }
 
-body, .banner, .banner h3, .banner p,
+.banner, .banner h3, .banner p,
 .search-bar, .search-form, .search-form input, .search-bar h3,
 .popular, .popular-headeing h3, .popular-headeing p, article img{
     overflow: hidden;
@@ -33,6 +33,7 @@ input[type='text']{
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 
 a {
