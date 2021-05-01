@@ -20,13 +20,13 @@ input[type='text']{
 }
 
 * {
+    overflow-x: hidden !important;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    overflow-x: hidden !important;
     font-family: Arial, Helvetica, sans-serif;
 }
 
