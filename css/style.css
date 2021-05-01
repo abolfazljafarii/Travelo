@@ -20,7 +20,7 @@ input[type='text']{
 }
 
 * {
-    overflow-x: hidden !important;
+    overflow: hidden !important;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
