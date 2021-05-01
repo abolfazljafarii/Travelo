@@ -11,7 +11,7 @@
     clear: both;
 }
 
-.banner, .banner h3, .banner p,
+body, .banner, .banner h3, .banner p,
 .search-bar, .search-form, .search-form input, .search-bar h3,
 .popular, .popular-headeing h3, .popular-headeing p, article img{
     overflow: hidden;
